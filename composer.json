@@ -1,0 +1,29 @@
+{
+    "name": "jiuyan/thrift-server",
+    "description": "A PHP thrift server based swoole...",
+    "require": {
+        "packaged/thrift": "0.9.2.1",
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "classmap": [
+            "base",
+            "server",
+            "services",
+            "thrift/packages"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.in66.cc"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ],
+    "config":{
+        "secure-http":false
+    }
+}
